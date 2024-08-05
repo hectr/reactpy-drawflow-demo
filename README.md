@@ -2,6 +2,8 @@
 
 This project is a Python implementation of [Drawflow](https://github.com/jerosoler/Drawflow) — with some variations — using [ReactPy](https://reactpy.dev). The example demo uses [FastAPI](https://fastapi.tiangolo.com) as the backend.
 
+![Simple Flow Demo screenshot](screenshot.jpg)
+
 ## Running the Demo
 
 To run the demo, use the following command:
