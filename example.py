@@ -174,8 +174,8 @@ def App():
 
     return html.div(
         {"style": {"user-select": "none", "-moz-user-select": "none", "-webkit-user-select": "none", "-ms-user-select": "none"}},
-        html.link({"rel": "stylesheet", "type": "text/css", "href": app.url_path_for('static', path='drawflow.min.css')}),
-        html.link({"rel": "stylesheet", "type": "text/css", "href": app.url_path_for('static', path='style.css')}),
+        html.link({"rel": "stylesheet", "type": "text/css", "href": app.url_path_for('static', path='drawflow.css')}),
+        html.link({"rel": "stylesheet", "type": "text/css", "href": app.url_path_for('static', path='beautiful.css')}),
         html.link({"rel": "stylesheet", "href":"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css", "integrity": "sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=", "crossorigin": "anonymous"}),
         html.link({"href": "https://fonts.googleapis.com/css2?family=Roboto&display=swap", "rel": "stylesheet"}),
         Drawflow(nodes_data, set_nodes_data, component_map, _offset=(0, 37))
